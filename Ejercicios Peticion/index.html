@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Productos - Peticiones Fetch</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Buscar Productos</h1>
+        <form class="input-group mb-3" id="productoForm">
+            <label for="buscarProducto" class="sr-only">Buscar Producto</label>
+            <input type="text" id="buscarProducto" class="form-control" placeholder="Buscar producto..." aria-label="Buscar Producto">
+            <div class="input-group-append">
+                <button id="botonBuscar" class="btn btn-primary" type="button">Buscar</button>
+            </div>
+        </form>
+        <div id="listaProductos" class="lista"></div>
+    </div>
+
+    <template id="productoTemplate">
+        <div class="columnas">
+            <div class="cart">
+                <img src="" class="carta" alt="">
+                <div class="bodycar">
+                    <h5 class="cartatitulo"></h5>
+                    <p class="textocar"></p>
+                    <a href="" target="_blank" class="botonprimario">Ver Producto</a>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <script src="script.js"></script>
+</body>
+</html>

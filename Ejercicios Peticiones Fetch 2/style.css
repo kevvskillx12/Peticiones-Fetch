@@ -1,0 +1,17 @@
+body {
+    background-color: #000000a5;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    max-width: 800px; /* Ajusta según tus necesidades */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+.imagen {
+    width: 150px; /* Cambia el ancho según tus necesidades */
+    height: 150px; /* Cambia la altura según tus necesidades */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
